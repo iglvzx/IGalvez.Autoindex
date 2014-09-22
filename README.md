@@ -9,6 +9,10 @@ So, I decided to give it an overdue makeover by taking advantage of modern compo
 
 ![before screenshot](https://raw.githubusercontent.com/iglvzx/IGalvez.Autoindex/master/.autoindex/docs/images/before.png)
 
+![before screenshot 2](https://raw.githubusercontent.com/iglvzx/IGalvez.Autoindex/master/.autoindex/docs/images/before2.png)
+
 ##After
 
 ![after screenshot](https://raw.githubusercontent.com/iglvzx/IGalvez.Autoindex/master/.autoindex/docs/images/home.png)
+
+![after screenshot 2](https://raw.githubusercontent.com/iglvzx/IGalvez.Autoindex/master/.autoindex/docs/images/after2.png)
