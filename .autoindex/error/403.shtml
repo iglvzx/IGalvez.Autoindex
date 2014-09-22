@@ -4,7 +4,7 @@
 
 <!--#include virtual="/.autoindex/meta.shtml" --> 
 
-<title>HTTP 401: Forbidden</title>
+<title>HTTP 403: Forbidden</title>
 
 <!--#include virtual="/.autoindex/css.shtml" --> 
 
@@ -18,7 +18,7 @@
 <!--#include virtual="/.autoindex/folder-path.shtml" -->
 
 	<div class="alert alert-warning">
-		<div class="alert-title"><i class="fa fa-fw fa-lock"></i>HTTP 401: Forbidden</div>
+		<div class="alert-title"><i class="fa fa-fw fa-lock"></i>HTTP 403: Forbidden</div>
 		<div class="alert-content">You do not have permission to access the following resource:<br/><span></span></div>
 		<button id="back" type="button" class="btn btn-warning"><i class="fa fa-arrow-left"></i>Back</button>
 	</div>
