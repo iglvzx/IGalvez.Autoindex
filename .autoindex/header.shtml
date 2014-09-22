@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!--#include virtual="/.autoindex/meta.shtml" --> 
+
+<title></title>
+
+<!--#include virtual="/.autoindex/css.shtml" --> 
+
+</head>
+<body>
+	
+<div id="wrapper" class="container" style="display: none;">
+
+<!--#include virtual="/.autoindex/navbar.shtml" -->
+
+<!--#include virtual="/.autoindex/folder-path.shtml" -->
+
+<div class="panel panel-default">
+	<div class="table-responsive">

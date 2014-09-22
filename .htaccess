@@ -1,0 +1,27 @@
+DirectoryIndex ff307feeee3339bcb5dbdfc9904e4f20
+Options +Indexes
+Options +Includes
+
+AddType text/html .shtml
+AddOutputFilter INCLUDES .shtml
+
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript application/json
+
+IndexOptions Charset=UTF-8
+IndexOptions FancyIndexing
+IndexOptions SuppressHTMLPreamble
+IndexOptions HTMLTable
+IndexOptions VersionSort
+IndexOptions SuppressDescription
+IndexOptions SuppressIcon
+IndexOptions SuppressRules
+IndexOptions FoldersFirst
+IndexOptions IgnoreCase
+IndexOptions NameWidth=*
+
+HeaderName /.autoindex/header.shtml
+ReadmeName /.autoindex/footer.shtml
+
+ErrorDocument 404 /.autoindex/error/404.shtml
+ErrorDocument 403 /.autoindex/error/403.shtml
+ErrorDocument 500 /.autoindex/error/500.shtml

@@ -1,0 +1,4 @@
+<div class="panel panel-default">
+	<div class="panel-heading">Folder Path</div>
+	<div class="panel-body" id="url"></div>
+</div>

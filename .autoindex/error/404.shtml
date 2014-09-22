@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!--#include virtual="/.autoindex/meta.shtml" --> 
+
+<title>HTTP 404: Not Found</title>
+
+<!--#include virtual="/.autoindex/css.shtml" --> 
+
+</head>
+<body>
+	
+<div id="wrapper" class="container" style="display: none;">
+
+<!--#include virtual="/.autoindex/navbar.shtml" -->
+
+<!--#include virtual="/.autoindex/folder-path.shtml" -->
+
+	<div class="alert alert-warning">
+		<div class="alert-title"><i class="fa fa-fw fa-search"></i>HTTP 404: Not Found</div>
+		<div class="alert-content">The server could not find the following resource:<br/><span></span></div>
+		<button id="back" type="button" class="btn btn-warning"><i class="fa fa-arrow-left"></i>Back</button>
+	</div>
+	
+<!--#include virtual="/.autoindex/footer-info.shtml" -->
+
+</div><!--/.container -->
+
+<!--#include virtual="/.autoindex/error/js.shtml" -->
+	
+</body>
+</html>

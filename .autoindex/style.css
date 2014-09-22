@@ -1,0 +1,131 @@
+html {
+	overflow-y: scroll;
+}
+
+body {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-family: Roboto, sans-serif;
+	font-size: 15px;
+}
+
+tr a {
+	display: block;
+	padding: 8px;
+}
+
+div.panel.panel-default > div.table-responsive > table.table.table-bordered > thead > tr > th {
+	/* border-bottom: 2px solid #DDD; */
+}
+
+tbody > tr > td.td-link,
+.table > thead > tr > th {
+	padding: 0;
+}
+
+#url a .fa {
+
+	font-size: 18px;
+}
+
+#url .active {
+	font-weight: bold;
+}
+
+a .fa.left {
+	margin-right: 8px;
+	font-size: 18px;
+}
+
+a .fa.right {
+	margin-left: 4px;
+	font-size: 15px;
+}
+
+.panel, .alert, .btn, pre, .navbar, .navbar-toggle {
+	/*border-radius: 2px;*/
+	/*box-shadow: none;*/
+}
+
+.navbar .fa {
+  margin-right: 8px;
+}
+
+.panel-heading {
+	font-weight: bold;
+}
+
+.panel-body {
+	padding: 8px;
+}
+
+a[data-type="parent"] .fa {
+	/*transform: rotate(-45deg); */
+}
+
+.alert {
+	padding: 8px;
+}
+
+.alert .btn {
+	margin: 0;
+	padding: 0;
+	padding: 4px 8px;
+	margin-top: 8px;
+}
+
+.btn .fa {
+	margin-right: 4px;
+}
+
+
+.alert-title {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.alert-title .fa {
+	margin-right: 8px;
+}
+
+.alert-title + .alert-content {
+	margin-top: 4px;
+}
+
+.alert .btn + .btn {
+	margin-left: 4px;
+}
+
+.table > .new-thead > tr > th {
+	padding: 8px;
+}
+
+tr.header {
+    font-weight: bold;
+}
+
+pre {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 13px;
+}
+
+pre.text-file {
+	margin-bottom: 20px;
+	padding: 8px;
+	max-height: 400px;
+    margin-top: -10px;
+}
+
+#footer {
+	color: #999;
+	margin-top: -5px;
+}
+
+#footer .fa {
+	margin-right: 4px;
+}
+
+#footer p {
+	padding: 0;
+	margin: 0;
+}
