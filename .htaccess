@@ -1,4 +1,8 @@
-DirectoryIndex ff307feeee3339bcb5dbdfc9904e4f20
+# Disable index.html per http://serverfault.com/a/434056
+# If running Apache 2.4, you can set the following instead:
+# DirectoryIndex disabled
+DirectoryIndex jUTTqe6t5o0cOqWKwuBf6yWaIJr5KA5IT9IHsCYHihIwQWzEjmr6jIrpjlqQjKgN
+
 Options +Indexes
 Options +Includes
 
