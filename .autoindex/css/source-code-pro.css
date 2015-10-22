@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Source Code Pro';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/Source-Code-Pro-regular/Source-Code-Pro-regular.eot?v=6');
+  src: url('../fonts/Source-Code-Pro-regular/Source-Code-Pro-regular.eot?#iefix&v=6') format('embedded-opentype'),
+       local('Source Code Pro'),
+       local('Source-Code-Pro-regular'),
+       url('../fonts/Source-Code-Pro-regular/Source-Code-Pro-regular.woff2?v=6') format('woff2'),
+       url('../fonts/Source-Code-Pro-regular/Source-Code-Pro-regular.woff?v=6') format('woff'),
+       url('../fonts/Source-Code-Pro-regular/Source-Code-Pro-regular.ttf?v=6') format('truetype'),
+       url('../fonts/Source-Code-Pro-regular/Source-Code-Pro-regular.svg?v=6#SourceCodePro') format('svg');
+}

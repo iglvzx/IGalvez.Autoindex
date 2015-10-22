@@ -29,3 +29,6 @@ ReadmeName /.autoindex/footer.shtml
 ErrorDocument 404 /.autoindex/error/404.shtml
 ErrorDocument 403 /.autoindex/error/403.shtml
 ErrorDocument 500 /.autoindex/error/500.shtml
+
+IndexIgnore LICENSE
+IndexIgnore README.md

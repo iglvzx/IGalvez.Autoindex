@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/Roboto-regular/Roboto-regular.eot?v=15');
+  src: url('../fonts/Roboto-regular/Roboto-regular.eot?#iefix&v=15') format('embedded-opentype'),
+       local('Roboto'),
+       local('Roboto-regular'),
+       url('../fonts/Roboto-regular/Roboto-regular.woff2?v=15') format('woff2'),
+       url('../fonts/Roboto-regular/Roboto-regular.woff?v=15') format('woff'),
+       url('../fonts/Roboto-regular/Roboto-regular.ttf?v=15') format('truetype'),
+       url('../fonts/Roboto-regular/Roboto-regular.svg?v=15#Roboto') format('svg');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-style: normal;
+  src: url('../fonts/Roboto-700/Roboto-700.eot?v=15');
+  src: url('../fonts/Roboto-700/Roboto-700.eot?#iefix&v=15') format('embedded-opentype'),
+       local('Roboto Bold'),
+       local('Roboto-700'),
+       url('../fonts/Roboto-700/Roboto-700.woff2?v=15') format('woff2'),
+       url('../fonts/Roboto-700/Roboto-700.woff?v=15') format('woff'),
+       url('../fonts/Roboto-700/Roboto-700.ttf?v=15') format('truetype'),
+       url('../fonts/Roboto-700/Roboto-700.svg?v=15#Roboto') format('svg');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-style: italic;
+  src: url('../fonts/Roboto-italic/Roboto-italic.eot?v=15');
+  src: url('../fonts/Roboto-italic/Roboto-italic.eot?#iefix&v=15') format('embedded-opentype'),
+       local('Roboto Italic'),
+       local('Roboto-italic'),
+       url('../fonts/Roboto-italic/Roboto-italic.woff2?v=15') format('woff2'),
+       url('../fonts/Roboto-italic/Roboto-italic.woff?v=15') format('woff'),
+       url('../fonts/Roboto-italic/Roboto-italic.ttf?v=15') format('truetype'),
+       url('../fonts/Roboto-italic/Roboto-italic.svg?v=15#Roboto') format('svg');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-style: italic;
+  src: url('../fonts/Roboto-700italic/Roboto-700italic.eot?v=15');
+  src: url('../fonts/Roboto-700italic/Roboto-700italic.eot?#iefix&v=15') format('embedded-opentype'),
+       local('Roboto Bold Italic'),
+       local('Roboto-700italic'),
+       url('../fonts/Roboto-700italic/Roboto-700italic.woff2?v=15') format('woff2'),
+       url('../fonts/Roboto-700italic/Roboto-700italic.woff?v=15') format('woff'),
+       url('../fonts/Roboto-700italic/Roboto-700italic.ttf?v=15') format('truetype'),
+       url('../fonts/Roboto-700italic/Roboto-700italic.svg?v=15#Roboto') format('svg');
+}

@@ -1,8 +1,8 @@
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"/>
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic"/>
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro"/>
+<link rel="stylesheet" href="/.autoindex/css/bootstrap.css?v=3.3.5"/>
+<link rel="stylesheet" href="/.autoindex/css/bootstrap-theme.css?v=3.3.5">
+<link rel="stylesheet" href="/.autoindex/css/font-awesome.css?v=4.4.0"/>
+<link rel="stylesheet" href="/.autoindex/css/roboto.css?v=15"/>
+<link rel="stylesheet" href="/.autoindex/css/source-code-pro.css?v=6"/>
 <style>
 <!--#include virtual="/.autoindex/style.css" --> 
 </style>

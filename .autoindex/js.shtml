@@ -1,5 +1,5 @@
-<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="/.autoindex/js/jquery.js?v=2.1.4"></script>
+<script src="/.autoindex/js/bootstrap.js?v=3.3.5"></script>
 <script>
 <!--#include virtual="/.autoindex/file-types.js" -->
 <!--#include virtual="/.autoindex/breadcrumbs.js" -->

@@ -9,7 +9,7 @@ var filesText = [
 ];
 
 var filesWeb = [ // web pages
-]
+];
 
 var filesCode = [
 	'html',
@@ -27,7 +27,7 @@ var filesCode = [
     'sh',
     'svg',
 	'cgi'
-]
+];
 
 var filesImage = [
     'jpg',
@@ -36,11 +36,11 @@ var filesImage = [
     'gif',
     'tiff',
     'ico'
-]
+];
 
 var filesFont = [
     'otf',
     'eot',
     'ttf',
     'woff'
-]
+];
