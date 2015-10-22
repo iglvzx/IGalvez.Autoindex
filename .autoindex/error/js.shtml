@@ -1,5 +1,5 @@
-<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="/.autoindex/js/jquery.js?v=2.1.4"></script>
+<script src="/.autoindex/js/bootstrap.js?v=3.3.5"></script>
 <script>
 
 var parts = document.URL.split('/');
