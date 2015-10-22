@@ -1,9 +1,12 @@
 var parts = document.URL.split('/');
 parts.pop(); // remove last element
 
+
+var breadcrumbs;
+
 if(parts.length > 3) {
 
-	var breadcrumbs = '<a href="/"><i class="fa fa-fw fa-home"></i>' /*+ parts[0] + '//' + parts[2].replace(/(\W)/g, '$1<wbr/>') */+ '<span>/</span></a>';
+	breadcrumbs = '<a href="/"><i class="fa fa-fw fa-home"></i>' /*+ parts[0] + '//' + parts[2].replace(/(\W)/g, '$1<wbr/>') */+ '<span>/</span></a>';
 
 	var current = '';
 	for(var i = 3; i < parts.length; i++) {
@@ -20,7 +23,7 @@ if(parts.length > 3) {
 	}
 } else {
 
-	var breadcrumbs = '<a class="active" href="/"><i class="fa fa-fw fa-home"></i>' /*+ parts[0] + '//' + parts[2].replace(/(\W)/g, '$1<wbr/>')*/ + '<span>/</span></a>';
+	breadcrumbs = '<a class="active" href="/"><i class="fa fa-fw fa-home"></i>' /*+ parts[0] + '//' + parts[2].replace(/(\W)/g, '$1<wbr/>')*/ + '<span>/</span></a>';
 
 }
 
