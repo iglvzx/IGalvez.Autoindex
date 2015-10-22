@@ -5,6 +5,24 @@ Apache's mod_autoindex feature is very useful when you want to set up a simple f
 
 So, I decided to give it an overdue makeover by taking advantage of modern components like Bootstrap, jQuery, Google Fonts, and Font Awesome!
 
+## Prerequisite
+
+1. These Apache modules enabled:
+    * mod_dir
+    * mod_mime
+    * mod_deflate
+    * mod_filter
+    * mod_autoindex
+
+2. Set `AllowOverride All` for your virtual host's document root. For example, here's an except from an example virtual host configuration:
+
+<pre>DocumentRoot /home/iglvzx/www
+&lt;Directory /home/iglvzx/www&gt;
+    Options Indexes FollowSymLinks
+    AllowOverride All
+    Require all granted
+&lt;/Directory&gt;</pre>
+
 ## Features
 
 ### Folder Path Breadcrumbs
