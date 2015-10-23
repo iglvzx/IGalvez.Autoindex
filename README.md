@@ -5,6 +5,10 @@ Apache's mod_autoindex feature is very useful when you want to set up a simple f
 
 So, I decided to give it an overdue makeover by taking advantage of modern components like Bootstrap, jQuery, Google Fonts, and Font Awesome!
 
+## Live Demo
+
+http://autoindex.igalvez.net/
+
 ## Prerequisite
 
 1. These Apache modules enabled:
