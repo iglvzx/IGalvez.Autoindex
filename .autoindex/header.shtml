@@ -4,7 +4,7 @@
 
 <!--#include virtual="/.autoindex/meta.shtml" --> 
 
-<title></title>
+<title><!--#echo var="REQUEST_URI" --></title>
 
 <!--#include virtual="/.autoindex/css.shtml" --> 
 

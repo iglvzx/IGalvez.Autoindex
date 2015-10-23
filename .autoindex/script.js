@@ -1,6 +1,3 @@
-// set page title ----------------------------------------------------------------------------------
-document.title = document.URL;
-
 $('table').addClass('table'); // add Bootstrap CSS to table
 
 $('td').removeAttr('align'); // remove align="right" from cells
