@@ -81,10 +81,10 @@ $('table tbody tr').each(function(i, obj) {
 				var ext = fparts[fparts.length - 1];
 
 				var extensionFound = false;
-				for(var i = 0; i < fileTypes.length; i++) {
+				for(var f = 0; f < fileTypes.length; f++) {
 
-					var icon = fileTypes[i].icon;
-					var extensions = fileTypes[i].extensions;
+					var icon = fileTypes[f].icon;
+					var extensions = fileTypes[f].extensions;
 
 					if($.inArray(ext, extensions) > -1) {
 
