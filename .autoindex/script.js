@@ -47,7 +47,7 @@ if(/\/$/.test(document.URL)) {
 
 function addIcon(object, icon, className) {
 	var HTML = '<i class="' + className + ' fa fa-fw fa-' + icon + '"></i>';
-	
+
 	if(className == 'right') {
 		object.append(HTML);
 	} else if(className == 'left') {
@@ -57,7 +57,7 @@ function addIcon(object, icon, className) {
 
 // CSS and icons to rows and links -----------------------------------------------------------------
 $('table tbody tr').each(function(i, obj) {
-	
+
 	var link = $('a', this).first();
 	link.parent().addClass('td-link');
 	var file = link.text();
@@ -68,43 +68,48 @@ $('table tbody tr').each(function(i, obj) {
 		$(this).addClass('warning');
 		link.text('../');
 		addIcon(link, 'folder', 'left');
-		
+
 	} else {
-	
-        if (file.substring(file.length - 1) == '/') {
+
+		if (file.substring(file.length - 1) == '/') {
 			link.attr('data-type', 'folder');
 			$(this).addClass('active');
 			addIcon(link, 'folder', 'left');
 		} else {
-        
-            var fparts = file.split('.');
-            
-            if(fparts.length > 1) {
-            
-                var ext = fparts[fparts.length - 1];
-                
-                if($.inArray(ext, filesText) > -1) { // text files
-                    addIcon(link, iconText, 'left');
-                    showSource = true;
-                } else if($.inArray(ext, filesCode) > -1) { // code
-                    addIcon(link, iconCode, 'left');
-                    showSource = true;
-                } else if($.inArray(ext, filesImage) > -1) { // images
-                    addIcon(link, iconImage, 'left');
-                } else if($.inArray(ext, filesFont) > -1) { // fonts
-                    addIcon(link, iconFont, 'left');
-                } else { // unknown file extension
-                    addIcon(link, 'file-o', 'left');
-                }
-            
-            } else { // files with no extension
-                addIcon(link, 'file-o', 'left');
-            }
-            
+
+			var fparts = file.split('.');
+
+			if(fparts.length > 1) {
+
+				var ext = fparts[fparts.length - 1];
+
+				var extensionFound = false;
+				for(var i = 0; i < fileTypes.length; i++) {
+
+					var icon = fileTypes[i].icon;
+					var extensions = fileTypes[i].extensions;
+
+					if($.inArray(ext, extensions) > -1) {
+
+						extensionFound = true;
+						addIcon(link, icon, 'left');
+						break;
+
+					}
+				}
+
+				if(!extensionFound) { // extension not found in fileTypes array of objects
+					addIcon(link, 'file-o', 'left');
+				}
+
+			} else { // files with no extension
+				addIcon(link, 'file-o', 'left');
+			}
+
 			link.attr('target', '_blank');
-			link.attr('data-type', 'file');          
+			link.attr('data-type', 'file');
 		}
-    
+
 	}
 
 });

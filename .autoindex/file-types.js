@@ -1,46 +1,72 @@
-var iconText = 'file-text-o';
-var iconCode = 'file-code-o';
-var iconImage = 'picture-o';
-var iconFont = 'font';
+// file types array of objects
+var fileTypes = [
 
-var filesText = [
-    'txt',
-	'pem'
-];
+    {
+        type: "text",
+        icon: "file-text-o",
+        extensions: [
+            'txt',
+            'pem',
+            'log'
+        ]
+    },
 
-var filesWeb = [ // web pages
-];
+    {
+        type: "code",
+        icon: "file-code-o",
+        extensions: [
+            'html',
+            'js',
+            'css',
+            'scss',
+            'less',
+            'map',
+            'json',
+            'yml',
+            'xml',
+            'jade',
+            'md',
+            'py',
+            'sh',
+            'svg',
+            'cgi'
+        ]
+    },
 
-var filesCode = [
-	'html',
-    'js',
-    'css',
-    'scss',
-    'less',
-    'map',
-    'json',
-    'yml',
-    'xml',
-    'jade',
-    'md',
-    'py',
-    'sh',
-    'svg',
-	'cgi'
-];
+    {
+        type: "image",
+        icon: "picture-o",
+        extensions: [
+            'bmp',
+            'jpg',
+            'jpeg',
+            'png',
+            'gif',
+            'tiff',
+            'ico'
+        ]
+    },
 
-var filesImage = [
-    'jpg',
-    'jpeg',
-    'png',
-    'gif',
-    'tiff',
-    'ico'
-];
+    {
+        type: "font",
+        icon: "font",
+        extensions: [
+            'otf',
+            'eot',
+            'ttf',
+            'woff',
+            'woff2'
+        ]
+    },
 
-var filesFont = [
-    'otf',
-    'eot',
-    'ttf',
-    'woff'
+    {
+        type: "configuration",
+        icon: "cog",
+        extensions: [
+            'ini',
+            'conf',
+            'cfg'
+        ]
+    }
+
 ];
