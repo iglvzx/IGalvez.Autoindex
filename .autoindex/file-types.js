@@ -54,7 +54,8 @@ var fileTypes = [
             'mp3',
             'wav',
             'wma',
-            'ogg'
+            'ogg',
+            'm4a'
         ]
     },
 
