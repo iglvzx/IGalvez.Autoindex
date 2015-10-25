@@ -79,6 +79,18 @@ var fileTypes = [
             'conf',
             'cfg'
         ]
+    },
+
+    {
+        type: "archive",
+        icon: "file-archive-o",
+        extensions: [
+            'zip',
+            '7z',
+            'rar',
+            'tar',
+            'gz'
+        ]
     }
 
 ];
