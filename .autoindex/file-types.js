@@ -48,6 +48,17 @@ var fileTypes = [
     },
 
     {
+        type: "audio",
+        icon: "music",
+        extensions: [
+            'mp3',
+            'wav',
+            'wma',
+            'ogg'
+        ]
+    },
+
+    {
         type: "font",
         icon: "font",
         extensions: [
