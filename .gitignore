@@ -1,1 +1,7 @@
-/.idea/
+/*
+
+!/.autoindex/
+!/.logs/
+!/.htaccess
+!/LICENSE
+!/README.md
