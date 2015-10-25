@@ -17,6 +17,7 @@ http://autoindex.igalvez.net/
     * mod_deflate
     * mod_filter
     * mod_autoindex
+    * mod_include
 
 2. Set `AllowOverride All` for your virtual host's document root. For example, here's an except from an example virtual host configuration:
 
