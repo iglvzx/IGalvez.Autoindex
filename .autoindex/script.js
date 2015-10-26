@@ -1,4 +1,4 @@
-document.title = document.URL; // set page title to full URL
+document.title = decodeURI(document.URL); // set page title to full URL
 
 $('table').addClass('table'); // add Bootstrap CSS to table
 

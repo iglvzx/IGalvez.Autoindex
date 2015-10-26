@@ -1,4 +1,4 @@
-var parts = document.URL.split('/');
+var parts = decodeURI(document.URL).split('/');
 parts.pop(); // remove last element
 
 
