@@ -32,3 +32,4 @@ ErrorDocument 500 /.autoindex/error/500.shtml
 
 IndexIgnore LICENSE
 IndexIgnore README.md
+IndexIgnore robots.txt

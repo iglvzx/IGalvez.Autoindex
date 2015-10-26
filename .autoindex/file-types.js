@@ -91,6 +91,14 @@ var fileTypes = [
             'tar',
             'gz'
         ]
+    },
+    
+    {
+        type: "pdf",
+        icon: "file-pdf-o",
+        extensions: [
+            'pdf'
+        ]
     }
 
 ];
