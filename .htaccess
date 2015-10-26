@@ -1,5 +1,7 @@
 RedirectMatch 404 /\.git
 RedirectMatch 404 /\.logs
+Redirect 404 /LICENSE
+Redirect 404 /README.md
 
 # Disable index.html per http://serverfault.com/a/434056
 # If running Apache 2.4, you can set the following instead:
