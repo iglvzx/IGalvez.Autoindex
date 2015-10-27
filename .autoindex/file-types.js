@@ -15,6 +15,7 @@ var fileTypes = [
         extensions: [
             'cgi',
             'css',
+            'htm',
             'html',
             'jade',
             'js',
@@ -25,6 +26,7 @@ var fileTypes = [
             'py',
             'scss',
             'sh',
+            'stf',
             'svg',
             'xml',
             'yml'
@@ -35,6 +37,7 @@ var fileTypes = [
         icon: "picture-o",
         extensions: [
             'bmp',
+            'dib',
             'gif',
             'ico',
             'jpeg',
@@ -47,6 +50,7 @@ var fileTypes = [
     { // audio
         icon: "music",
         extensions: [
+            'aif',
             'm4a',
             'mp3',
             'ogg',
@@ -79,11 +83,14 @@ var fileTypes = [
     { // configuration files
         icon: "file-text",
         extensions: [
+            'adm',
             'cfg',
             'cnt',
             'conf',
+            'id',
             'inf',
             'ini',
+            'ion',
             'lst',
             'reg'
         ]
@@ -129,9 +136,13 @@ var fileTypes = [
         icon: "cogs",
         extensions: [
             'dll',
+            'drv',
             'ocx',
+            'pag',
             'pif',
-            'vbx'
+            'tdf',
+            'vbx',
+            'vxd'
         ]
     },
 
@@ -147,6 +158,14 @@ var fileTypes = [
         extensions: [
             'chm',
             'hlp'
+        ]
+    },
+
+    { // multimedia
+        icon: "cube",
+        extensions: [
+            'dir',
+            'muz'
         ]
     }
 
