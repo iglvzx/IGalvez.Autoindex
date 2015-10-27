@@ -1,103 +1,152 @@
 // file types array of objects
 var fileTypes = [
 
-    {
-        type: "text",
+    { // plain text
         icon: "file-text-o",
         extensions: [
-            'txt',
+            'log',
             'pem',
-            'log'
+            'txt'
         ]
     },
 
-    {
-        type: "code",
+    { // source code
         icon: "file-code-o",
         extensions: [
-            'html',
-            'js',
+            'cgi',
             'css',
-            'scss',
+            'html',
+            'jade',
+            'js',
+            'json',
             'less',
             'map',
-            'json',
-            'yml',
-            'xml',
-            'jade',
             'md',
             'py',
+            'scss',
             'sh',
             'svg',
-            'cgi'
+            'xml',
+            'yml'
         ]
     },
 
-    {
-        type: "image",
+    { // images
         icon: "picture-o",
         extensions: [
             'bmp',
-            'jpg',
-            'jpeg',
-            'png',
             'gif',
-            'tiff',
-            'ico'
+            'ico',
+            'jpeg',
+            'jpg',
+            'png',
+            'tiff'
         ]
     },
 
-    {
-        type: "audio",
+    { // audio
         icon: "music",
         extensions: [
+            'm4a',
             'mp3',
-            'wav',
-            'wma',
             'ogg',
-            'm4a'
+            'wav',
+            'wma'
         ]
     },
 
-    {
-        type: "font",
+    { // videos
+        icon: "film",
+        extensions: [
+            'avi',
+            'mpg'
+        ]
+    },
+
+    { // fonts
         icon: "font",
         extensions: [
-            'otf',
             'eot',
+            'fon',
+            'nls',
+            'otf',
             'ttf',
             'woff',
             'woff2'
         ]
     },
 
-    {
-        type: "configuration",
-        icon: "cog",
+    { // configuration files
+        icon: "file-text",
         extensions: [
-            'ini',
+            'cfg',
+            'cnt',
             'conf',
-            'cfg'
+            'inf',
+            'ini',
+            'lst',
+            'reg'
         ]
     },
 
-    {
-        type: "archive",
+    { // archives
         icon: "file-archive-o",
         extensions: [
-            'zip',
             '7z',
+            'cab',
+            'gz',
+            'img',
             'rar',
             'tar',
-            'gz'
+            'zip'
         ]
     },
     
-    {
-        type: "pdf",
+    { // pdf
         icon: "file-pdf-o",
         extensions: [
             'pdf'
+        ]
+    },
+
+    { // web
+        icon: "globe",
+        extensions: [
+            'url'
+        ]
+    },
+
+    { // applications
+        icon: "cog",
+        extensions: [
+            'bin',
+            'com',
+            'exe'
+        ]
+    },
+
+    { // application helpers
+        icon: "cogs",
+        extensions: [
+            'dll',
+            'ocx',
+            'pif',
+            'vbx'
+        ]
+    },
+
+    { // scripts
+        icon: "terminal",
+        extensions: [
+            'bat'
+        ]
+    },
+
+    { // help documents
+        icon: "question-circle",
+        extensions: [
+            'chm',
+            'hlp'
         ]
     }
 

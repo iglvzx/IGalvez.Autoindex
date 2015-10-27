@@ -80,7 +80,7 @@ $('table tbody tr').each(function(i, obj) {
 
 			if(fparts.length > 1) {
 
-				var ext = fparts[fparts.length - 1];
+				var ext = fparts[fparts.length - 1].toLowerCase();
 
 				var extensionFound = false;
 				for(var f = 0; f < fileTypes.length; f++) {
