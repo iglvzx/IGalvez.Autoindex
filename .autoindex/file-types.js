@@ -51,6 +51,7 @@ var fileTypes = [
         icon: "music",
         extensions: [
             'aif',
+            'asf',
             'm4a',
             'mp3',
             'ogg',
@@ -113,6 +114,15 @@ var fileTypes = [
         icon: "file-pdf-o",
         extensions: [
             'pdf'
+        ]
+    },
+
+    { // word documents
+        icon: "file-word-o",
+        extensions: [
+            'doc',
+            'docx',
+            'rtf'
         ]
     },
 
