@@ -14,6 +14,11 @@ Options +Includes
 AddType text/html .shtml
 AddOutputFilter INCLUDES .shtml
 
+# Serve html as plain text
+<FilesMatch "(?i)\.(htm|html)$">
+    ForceType text/plain
+</FilesMatch>
+
 AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript application/json
 
 IndexOptions Charset=UTF-8
