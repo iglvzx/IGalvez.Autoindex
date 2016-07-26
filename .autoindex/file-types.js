@@ -177,6 +177,14 @@ var fileTypes = [
             'dir',
             'muz'
         ]
+    },
+
+    { // plugins
+        icon: "puzzle-piece",
+        extensions: [
+            "xpi"
+        ]
+
     }
 
 ];
